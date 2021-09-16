@@ -47,6 +47,16 @@ function uniqArrayThird(arr) {
 
 function uniqArrayFourth(arr) {
   return arr.filter((item, index, self) => {
+    // console.log(
+    //   'item',
+    //   item,
+    //   'index',
+    //   index,
+    //   'self.indexOf(item)',
+    //   self.indexOf(item),
+    //   'self',
+    //   self
+    // )
     return self.indexOf(item) === index
   })
 }

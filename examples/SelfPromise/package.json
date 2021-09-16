@@ -1,0 +1,13 @@
+{
+  "name": "selfpromise",
+  "version": "1.0.0",
+  "description": "my promise",
+  "main": "Promise.js",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maks Matson",
+  "license": "ISC"
+}
